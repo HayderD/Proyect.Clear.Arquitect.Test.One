@@ -12,8 +12,8 @@ namespace Proyect.Clear.Arquitect.Infrastructure
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Product> Products => Set<Product>(); // Asumiendo que `User` es una entidad del dominio
-
+        public DbSet<Product> Products => Set<Product>(); 
+        public DbSet<Transaccion> Transacciones => Set<Transaccion>();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Configuraciones si las necesitas

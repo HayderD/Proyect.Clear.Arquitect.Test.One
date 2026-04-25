@@ -19,6 +19,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IProductRepository, EfProductRepository>();
 builder.Services.AddTransient<ProductUseCase>();
 
+builder.Services.AddScoped<ITransaccionesRepository, EfTransaccionRepository>();
+builder.Services.AddTransient<TransaccionUseCase>();
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
