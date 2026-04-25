@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyect.Clear.Arquitect.Domain", "Proyect.Clear.Arquitect.Domain\Proyect.Clear.Arquitect.Domain.csproj", "{6677551C-B813-47B5-800C-F707CB732556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyect.Clear.Arquitect.Application", "Proyect.Clear.Arquitect.Application\Proyect.Clear.Arquitect.Application.csproj", "{AA2A62F8-053D-4A4B-86E7-A1205A19F866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyect.Clear.Arquitect.Infrastructure", "Proyect.Clear.Arquitect.Infrastructure\Proyect.Clear.Arquitect.Infrastructure.csproj", "{A8281DA6-E036-4488-9F73-8F6A65B3594D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyect.Clear.Arquitect.Presentacion", "Proyect.Clear.Arquitect.Presentacion\Proyect.Clear.Arquitect.Presentacion.csproj", "{3326F31C-C251-4A69-A076-72CEBE66FD2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyect.Clear.Arquitect.Test", "Proyect.Clear.Arquitect.Test\Proyect.Clear.Arquitect.Test.csproj", "{D12E94E6-CA8F-46F5-B1D2-C9660D095B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyect.Clear.Arquitect.IntegrationTests", "Proyect.Clear.Arquitect.IntegrationTests\Proyect.Clear.Arquitect.IntegrationTests.csproj", "{5A24E65E-59E1-46AE-99C7-5E3871D5984D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6677551C-B813-47B5-800C-F707CB732556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6677551C-B813-47B5-800C-F707CB732556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6677551C-B813-47B5-800C-F707CB732556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6677551C-B813-47B5-800C-F707CB732556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2A62F8-053D-4A4B-86E7-A1205A19F866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2A62F8-053D-4A4B-86E7-A1205A19F866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2A62F8-053D-4A4B-86E7-A1205A19F866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2A62F8-053D-4A4B-86E7-A1205A19F866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8281DA6-E036-4488-9F73-8F6A65B3594D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8281DA6-E036-4488-9F73-8F6A65B3594D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8281DA6-E036-4488-9F73-8F6A65B3594D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8281DA6-E036-4488-9F73-8F6A65B3594D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3326F31C-C251-4A69-A076-72CEBE66FD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3326F31C-C251-4A69-A076-72CEBE66FD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3326F31C-C251-4A69-A076-72CEBE66FD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3326F31C-C251-4A69-A076-72CEBE66FD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12E94E6-CA8F-46F5-B1D2-C9660D095B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12E94E6-CA8F-46F5-B1D2-C9660D095B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12E94E6-CA8F-46F5-B1D2-C9660D095B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12E94E6-CA8F-46F5-B1D2-C9660D095B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A24E65E-59E1-46AE-99C7-5E3871D5984D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A24E65E-59E1-46AE-99C7-5E3871D5984D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A24E65E-59E1-46AE-99C7-5E3871D5984D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A24E65E-59E1-46AE-99C7-5E3871D5984D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {208717EE-FF29-4860-92B2-CDCB921606EE}
+	EndGlobalSection
+EndGlobal
